@@ -1,8 +1,5 @@
-name: Build & Test
+name: Build
 on:
-  pull_request:
-    paths-ignore:
-    - '**.md'
   push:
     paths-ignore:
     - '**.md'
